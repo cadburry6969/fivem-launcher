@@ -1,2 +1,6 @@
 # fivem-launcher
-A Launcher made for Fivem Servers
+I made a launcher for fivem server owners who wanted one.
+
+This repository has the source code included.
+
+# Made By Cadburry #6969
