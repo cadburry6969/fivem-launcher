@@ -12,6 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 
 namespace LauncherFivem
 {
@@ -25,12 +29,13 @@ namespace LauncherFivem
 
         private void PLay_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("fivem://connect/pcrp.online");            
+            System.Diagnostics.Process.Start("https://cutt.ly/jkcgfUq");  // shorten fivem://connect/serverip ,with a url shortner and use that link
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://servers.fivem.net/servers/detail/omy79v");
+            System.Diagnostics.Process.Start("https://servers.fivem.net/servers/detail/omy79v");            
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
