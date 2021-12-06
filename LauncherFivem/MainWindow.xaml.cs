@@ -29,28 +29,28 @@ namespace LauncherFivem
 
         private void PLay_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://cutt.ly/jkcgfUq");  // shorten fivem://connect/serverip ,with a url shortner and use that link
+            System.Diagnostics.Process.Start("fivem://connect/MyIpAddress:Port");  // shorten fivem://connect/serverip ,with a url shortner and use that link
 
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://servers.fivem.net/servers/detail/omy79v");            
+            System.Diagnostics.Process.Start("WEBSITE_LINK");            
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://discord.gg/UV4VA49");
+            System.Diagnostics.Process.Start("DISCORD_LINK");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("ts3server://voice.pcrp.online");
+            System.Diagnostics.Process.Start("ts3server://MyIpAddress:Port);
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://docs.google.com/document/d/1cV3PRpTs_V2a7tsYOuWmwqsA7WCI6DuJpuGxdHk37Ac/edit?usp=sharing");
+            System.Diagnostics.Process.Start("RULE_BOOK");
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
